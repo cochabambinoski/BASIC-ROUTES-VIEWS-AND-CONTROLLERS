@@ -22,7 +22,6 @@ gem 'webpacker', '4.0'
 gem 'turbolinks', '5'
 gem 'jbuilder', '2.9.1'
 gem 'rubocop', '0.77.0'
-gem 'pg'
 gem 'bootsnap', '1.4.2', require: false
 
 group :development, :test do
@@ -46,7 +45,7 @@ group :test do
 end
 
 group :production do
-  # gem 'pg',  '0.20.0'
+  gem 'pg',  '0.20.0'
   # gem 'puma', '4.3.1'
   # gem 'fog', '1.42'
 end
