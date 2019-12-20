@@ -21,6 +21,7 @@ gem 'sass-rails', '6'
 gem 'webpacker', '4.0'
 gem 'turbolinks', '5'
 gem 'jbuilder', '2.9.1'
+gem 'sqlite3', '~> 1.3.0'
 gem 'rubocop', '0.77.0'
 gem 'bootsnap', '1.4.2', require: false
 
