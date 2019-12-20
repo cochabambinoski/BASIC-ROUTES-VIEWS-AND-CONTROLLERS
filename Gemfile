@@ -22,7 +22,7 @@ gem 'webpacker', '4.0'
 gem 'turbolinks', '5'
 gem 'jbuilder', '2.9.1'
 gem 'rubocop', '0.77.0'
-gem 'sqlite3', '1.4.1'
+gem 'pg'
 gem 'bootsnap', '1.4.2', require: false
 
 group :development, :test do
