@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
 
-
+gem 'sqlite3', '1.4.1'
 gem 'rails', '6.0.1'
 gem 'autoprefixer-rails', '9.6.1.1'
 gem 'uglifier',     '3.2.0'
@@ -25,7 +25,6 @@ gem 'rails-controller-testing'
 gem 'bcrypt',         '3.1.12'
 
 group :development, :test do
-  gem 'sqlite3', '1.4.1'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
