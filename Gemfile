@@ -5,6 +5,8 @@ ruby '2.6.3'
 
 
 gem 'rails', '6.0.1'
+gem 'sqlite3', '~> 1.4'
+# Use Puma as the app server
 gem 'autoprefixer-rails', '9.6.1.1'
 gem 'uglifier',     '3.2.0'
 gem 'coffee-rails', '5.0.0'
@@ -21,9 +23,10 @@ gem 'turbolinks', '5'
 gem 'jbuilder', '2.9.1'
 gem 'rubocop', '0.77.0'
 gem 'bootsnap', '1.4.2', require: false
+gem 'rails-controller-testing'
+gem 'bcrypt',         '3.1.12'
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.3.6'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
