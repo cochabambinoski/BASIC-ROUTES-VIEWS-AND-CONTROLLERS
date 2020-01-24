@@ -23,7 +23,7 @@ gem 'rubocop', '0.77.0'
 gem 'bootsnap', '1.4.2', require: false
 
 group :development, :test do
-  gem 'sqlite3', '1.4.1'
+  gem 'sqlite3', '~> 1.3', '>= 1.3.6'
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
 end
 
