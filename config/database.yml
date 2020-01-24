@@ -23,3 +23,6 @@ test:
 # On Heroku you don't need the production section as it provides everything through 
 # ENV["DATABASE_URL"]
 # Heroku sets pretty good defaults as well so YAGNI.
+production:
+  <<: *default
+  database: 'my_app_production'
