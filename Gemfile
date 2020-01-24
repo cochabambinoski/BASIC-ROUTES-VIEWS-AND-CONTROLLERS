@@ -21,6 +21,8 @@ gem 'turbolinks', '5'
 gem 'jbuilder', '2.9.1'
 gem 'rubocop', '0.77.0'
 gem 'bootsnap', '1.4.2', require: false
+gem 'rails-controller-testing'
+gem 'bcrypt',         '3.1.12'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
