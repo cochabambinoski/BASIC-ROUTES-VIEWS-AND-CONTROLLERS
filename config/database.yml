@@ -25,4 +25,6 @@ test:
 # Heroku sets pretty good defaults as well so YAGNI.
 production:
   <<: *default
-  database: 'my_app_production'
+  database: sample_app_production
+  username: sample_app
+  password: <%= ENV['SAMPLE_APP_DATABASE_PASSWORD'] %>
