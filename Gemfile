@@ -23,6 +23,7 @@ gem 'rubocop', '0.77.0'
 gem 'bootsnap', '1.4.2', require: false
 gem 'rails-controller-testing'
 gem 'bcrypt',         '3.1.12'
+gem 'faker'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
